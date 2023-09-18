@@ -2,12 +2,17 @@
     "id": "dsa1",
     "title": "Das Schwarze Auge/The Dark Eye (1st Edition)",
     "description": "A system for playing \"Das Schwarze Auge\" (1st edition).",
-    "version": 0.01,
-    "author": "brentsparo",
+    "version": "0.0.1",
     "compatibility": {
-        "minimum": 10,
-        "verified": "11.306"
+        "minimum": "10",
+        "verified": "11",
+        "maximum": "11"
     },
+    "authors": [
+        {
+            "name": "brentsparo"
+        }
+    ],
     "esmodules": [
         "dsa1.js"
     ],
@@ -15,8 +20,9 @@
         "dsa1.css"
     ],
     "languages": [],
+    "initiative": "1d20",
     "gridDistance": 1,
     "gridUnits": "Schritt",
     "primaryTokenAttribute": "wounds",
-    "initiative": "1d6 + @courage.value"
+    "manifest": "https://raw.githubusercontent.com/brentsparo/dsa1/main/system.json"
 }
