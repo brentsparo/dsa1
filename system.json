@@ -1,7 +1,7 @@
 {
     "id": "dsa1",
     "title": "Das Schwarze Auge/The Dark Eye (1st Edition)",
-    "description": "A system for playing 'Das Schwarze Auge' (1st edition).",
+    "description": "A system for playing \"Das Schwarze Auge\" (1st edition).",
     "version": 0.01,
     "author": "brentsparo",
     "compatibility": {
@@ -14,11 +14,9 @@
     "styles": [
         "dsa1.css"
     ],
-    "languages": [
-
-    ],
+    "languages": [],
     "gridDistance": 1,
     "gridUnits": "Schritt",
     "primaryTokenAttribute": "wounds",
-    "initiative": "@courage.value + 1d6"
+    "initiative": "1d6 + @courage.value"
 }
